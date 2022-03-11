@@ -7,10 +7,15 @@
     <Nullable>enable</Nullable>
     <UseWindowsForms>true</UseWindowsForms>
     <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationIcon>IconX2.ico</ApplicationIcon>
   </PropertyGroup>
 
   <ItemGroup>
     <Compile Remove="Utils\MapValues.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="IconX2.ico" />
   </ItemGroup>
 
 </Project>
